@@ -2,7 +2,13 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { useEffect, useRef, useState } from 'react';
 import { UserWarning } from './UserWarning';
-import { createTodo, getTodos, removeTodoApi, updateTodoApi, USER_ID } from './api/todos';
+import {
+  createTodo,
+  getTodos,
+  removeTodoApi,
+  updateTodoApi,
+  USER_ID,
+} from './api/todos';
 import { Todo } from './types/Todo';
 
 export const App: React.FC = () => {
